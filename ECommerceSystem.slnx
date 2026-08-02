@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/OrderService/">
+    <Project Path="OrderService/OrderService.API/OrderService.API.csproj" />
+    <Project Path="OrderService/OrderService.Application/OrderService.Application.csproj" />
+    <Project Path="OrderService/OrderService.Domain/OrderService.Domain.csproj" />
+    <Project Path="OrderService/OrderService.Infrastructure/OrderService.Infrastructure.csproj" />
+  </Folder>
   <Folder Name="/UserService/">
     <Project Path="UserService/UserService.API/UserService.API.csproj" />
     <Project Path="UserService/UserService.Application/UserService.Application.csproj" />
