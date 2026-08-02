@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NotificationService.Domain\NotificationService.Domain.csproj" />
     <ProjectReference Include="..\NotificationService.Application\NotificationService.Application.csproj" />
+    <ProjectReference Include="..\..\Messaging\Messaging.Common\Messaging.Common.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

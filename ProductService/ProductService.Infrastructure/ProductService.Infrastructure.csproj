@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ProductService.Domain\ProductService.Domain.csproj" />
     <ProjectReference Include="..\ProductService.Application\ProductService.Application.csproj" />
+    <ProjectReference Include="..\..\Messaging\Messaging.Common\Messaging.Common.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
