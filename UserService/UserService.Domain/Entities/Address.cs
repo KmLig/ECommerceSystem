@@ -2,15 +2,15 @@ namespace UserService.Domain.Entities
 {
     public class Address
     {
-        public int Id { get; set; }
-        public string Street { get; set; } = string.Empty;
-        public string City { get; set; } = string.Empty;
-        public string State { get; set; } = string.Empty;
-        public string ZipCode { get; set; } = string.Empty;
-        public string Country { get; set; } = string.Empty;
-
-        // Foreign Key
-        public int UserId { get; set; }
-        public User? User { get; set; }
+        public Guid Id { get; set; }
+        public Guid UserId { get; set; }
+        public string AddressLine1 { get; set; } = null!;
+        public string? AddressLine2 { get; set; }
+        public string City { get; set; } = null!;
+        public string State { get; set; } = null!;
+        public string PostalCode { get; set; } = null!;
+        public string Country { get; set; } = null!;
+        public bool IsDefaultShipping { get; set; }
+        public bool IsDefaultBilling { get; set; }
     }
 }
