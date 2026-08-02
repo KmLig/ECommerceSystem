@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/NotificationService/">
+    <Project Path="NotificationService/NotificationService.API/NotificationService.API.csproj" />
+    <Project Path="NotificationService/NotificationService.Application/NotificationService.Application.csproj" />
+    <Project Path="NotificationService/NotificationService.Domain/NotificationService.Domain.csproj" />
+    <Project Path="NotificationService/NotificationService.Infrastructure/NotificationService.Infrastructure.csproj" />
+  </Folder>
   <Folder Name="/OrderService/">
     <Project Path="OrderService/OrderService.API/OrderService.API.csproj" />
     <Project Path="OrderService/OrderService.Application/OrderService.Application.csproj" />
