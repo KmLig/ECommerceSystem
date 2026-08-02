@@ -14,7 +14,6 @@ namespace UserService.Infrastructure.Repositories
 
         public UserRepository(
             UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
             UserDbContext dbContext)
         {
             _userManager = userManager;
