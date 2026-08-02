@@ -5,6 +5,12 @@
     <Project Path="OrderService/OrderService.Domain/OrderService.Domain.csproj" />
     <Project Path="OrderService/OrderService.Infrastructure/OrderService.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/ProductService/">
+    <Project Path="ProductService/ProductService.API/ProductService.API.csproj" />
+    <Project Path="ProductService/ProductService.Application/ProductService.Application.csproj" />
+    <Project Path="ProductService/ProductService.Domain/ProductService.Domain.csproj" />
+    <Project Path="ProductService/ProductService.Infrastructure/ProductService.Infrastructure.csproj" />
+  </Folder>
   <Folder Name="/UserService/">
     <Project Path="UserService/UserService.API/UserService.API.csproj" />
     <Project Path="UserService/UserService.Application/UserService.Application.csproj" />
