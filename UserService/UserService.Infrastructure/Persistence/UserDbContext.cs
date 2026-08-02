@@ -57,6 +57,7 @@ namespace UserService.Infrastructure.Persistence
                    Id = adminRoleId,
                    Name = "Admin",
                    NormalizedName = "ADMIN",
+                   ConcurrencyStamp = "fdf7ef4f-7fd6-4868-b4d2-35d74e2c833e",
                    Description = "Administrator with full permissions"
                },
                new ApplicationRole
@@ -64,6 +65,7 @@ namespace UserService.Infrastructure.Persistence
                    Id = customerRoleId,
                    Name = "Customer",
                    NormalizedName = "CUSTOMER",
+                   ConcurrencyStamp = "333769be-3a5c-4a2c-a745-17d9ccccc7d7",
                    Description = "Customer with shopping permissions"
                },
                new ApplicationRole
@@ -71,6 +73,7 @@ namespace UserService.Infrastructure.Persistence
                    Id = vendorRoleId,
                    Name = "Vendor",
                    NormalizedName = "VENDOR",
+                   ConcurrencyStamp = "cd00d524-80b9-4715-80d2-c4698b225e09",
                    Description = "Vendor who can manage products"
                }
            );
