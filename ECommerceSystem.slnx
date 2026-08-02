@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Messaging/">
+    <Project Path="Messaging/Messaging.Common/Messaging.Common.csproj" />
+  </Folder>
   <Folder Name="/NotificationService/">
     <Project Path="NotificationService/NotificationService.API/NotificationService.API.csproj" />
     <Project Path="NotificationService/NotificationService.Application/NotificationService.Application.csproj" />
